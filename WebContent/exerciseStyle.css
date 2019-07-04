@@ -1,0 +1,67 @@
+		body{
+			
+			background: #000;
+			height: 1800px;
+			overflow: scroll;
+			
+		}
+	    
+
+		#title{
+			height: 160px;
+			background-color: #474745;
+			text-align: center;			
+			margin : 5% 10% 5% 10%;			
+			font-size: 2.3em;						
+			border-radius: 80px;
+			border:10px solid gray;
+			color: #FFF;
+			line-height: 60px;
+					
+		}
+
+		#memory
+		{
+			height: 1100px;
+			background-color: #474745;
+			text-align: left;			
+			margin : 10% 10% 0% 10%;			
+			font-size: 2em;						
+			border-radius: 80px;
+			border:10px solid gray;
+			color: #FFF;
+			line-height: 80px;
+			overflow-y: scroll;
+
+		}
+
+		#back{
+			background-size: 150px;			
+			width: 150px;
+			height:150px; 
+			float: left;
+			margin-left: 60px;
+			
+			background-repeat: no-repeat;	
+
+		}
+		#home{
+			background-size: 150px;			
+			width: 150px;
+			height:150px; 
+			float: right;
+			margin-right: 60px;
+			
+			background-repeat: no-repeat;		
+		}
+
+		iframe{
+			margin-bottom: 50px;
+		}
+
+		.icon{
+			float: left;
+			width: 50%;
+			height: 80px;
+			margin-top: 60px;
+		}

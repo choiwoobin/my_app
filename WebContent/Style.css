@@ -1,0 +1,363 @@
+﻿		body{
+			background-color: #000;
+		}
+
+		#section{
+			height: 100%;
+			background-color: #000;
+
+		}
+
+		#Fullbody{
+			width: 980px;
+			height: 1321px;
+			margin: 0px;
+			position: relative;
+			background-color: #000;
+
+			
+		}
+		#head{
+			width: 77.14%;
+			height : 14.23%;
+			margin: 0px auto;
+			position: absolute;
+			top: 0%;
+			left: 11.5%;
+
+			z-index: 10;
+			
+		}
+
+		#lsholder{
+			width: 28.87%;
+			height:11.43%;
+			margin: 0px 0px 0px 112px;
+			position: absolute;
+			top:14.22%;
+			left: 0px;
+
+			z-index: 10;
+		}
+		#bast{
+			width: 20.82%;
+			height:11.43%;
+			position: absolute;
+			top: 14.22%;
+			left: 40.29%;
+			
+			z-index: 10;
+		}
+		#rsholder{
+			width: 27.44%;
+			height:11.43%;
+			margin: 0px 112px 0px 0px;
+			position: absolute;
+			top:14.22%;
+			right: 0px;
+			
+
+			z-index: 10;
+		}
+		#larm{
+			width: 24.48%;
+			height: 34%;
+			margin: 0px 0px 0px 112px;
+			position: absolute;
+			top: 25.65%;
+			left: 0%;
+
+			z-index: 10;
+		}
+		#rarm{
+			width: 23.57%;
+			height: 34%;
+			margin: 0px 112px 0px 0px;
+			position: absolute;
+			top:25.65% ;
+			right:0%;
+
+			z-index: 10;
+		}
+
+		#stomach{
+			width: 29.08%;
+			height:22.55%;
+			margin: 0px;
+			
+			position: absolute;
+			top: 25.65%;
+			left: 35.91%;
+
+			z-index: 10;
+		}
+
+		#thigh{
+			width: 29.08%;
+			height:18.24%;
+			margin: 0px;
+			position: absolute;
+			left: 35.91%;
+			top: 48.22%;
+
+			z-index: 10;
+		}
+		#claf{
+			width: 29.08%;
+			height:33.53%;
+			position: absolute;
+			left:35.91%;
+			top:66.46%;
+			margin: 0px;
+			
+			z-index: 10;
+		}
+
+		/* 선택된 신체부위*/
+		#Slsholder{
+			width: 28.87%;
+			height:11.43%;
+			margin: 0px 0px 0px 112px;
+			position: absolute;
+			top:14.22%;
+			left: 0px;
+			z-index: 8;
+		}
+		#Srsholder{
+			width: 27.44%;
+			height:11.43%;
+			margin: 0px 112px 0px 0px;
+			position: absolute;
+			top:14.22%;
+			right: 0px;
+			
+
+			z-index: 8;
+		}
+		#Sbast{
+			width: 20.82%;
+			height:11.43%;
+			position: absolute;
+			top: 14.22%;
+			left: 40.29%;
+			
+			z-index: 8;
+		}
+		#Slarm{
+			width: 24.48%;
+			height: 32%;
+			margin: 0px 0px 0px 112px;
+			position: absolute;
+			top: 25.65%;
+			left: 0%;
+
+			z-index: 8;
+		}
+		#Srarm{
+			width: 23.57%;
+			height: 32%;
+			margin: 0px 112px 0px 0px;
+			position: absolute;
+			top:25.65% ;
+			right:0%;
+
+			z-index: 8;
+		}
+		
+		#Sstomach{
+			width: 29.08%;
+			height:22.55%;
+			margin: 0px;
+			
+			position: absolute;
+			top: 25.65%;
+			left: 35.91%;
+
+			z-index: 8;
+		}
+		#Sthigh{
+			width: 29.08%;
+			height:18.24%;
+			margin: 0px;
+			position: absolute;
+			left: 35.91%;
+			top: 48.22%;
+
+			z-index: 8;
+		}
+		#Sclaf{
+			width: 29.08%;
+			height:33.53%;
+			position: absolute;
+			left:35.91%;
+			top:66.46%;
+			margin: 0px;
+			
+			z-index: 8;
+		}
+
+		#Bhead{
+			width: 77.14%;
+			height : 14.23%;
+			position: absolute;
+			top: 0%;
+			left: 11.5%;
+
+			z-index: 6;
+		}
+		#Blsholder{
+			width: 24.68%;
+			height:11.96%;
+			margin: 0px 0px 0px 112px;
+			position: absolute;
+			top:14.23%;
+			left: 0%;
+
+			z-index: 6;
+			
+		}
+		#Back{
+			width: 29.08%;
+			height:28.08%;
+			background-repeat: no-repeat;
+			position: absolute;
+			top: 14.23%;
+			left: 36.29%;
+
+			z-index: 6;
+		}
+		#Brsholder{
+			width: 23.57%;
+			height:11.96%;
+			margin: 0px 112px 0px 0px;
+			position: absolute;
+			top:14.22%;
+			right: 0px;
+
+			z-index: 6;
+		}
+		#Blarm{
+			width: 24.48%;
+			height: 32%;
+			margin: 0px 0px 0px 112px;
+			position: absolute;
+			top: 26.19%;
+			left: 0%;
+			z-index: 6;
+		}
+		#Brarm{
+			width: 23.57%;
+			height: 32%;
+			margin: 0px 112px 0px 0px;
+			position: absolute;
+			top:26.19% ;
+			right:0%;
+			z-index: 6;
+		}
+		#Hip{
+			width: 29.08%;
+			height: 12.71%;
+			position: absolute;
+			top: 42.31%;
+			left :35.9%;
+			z-index: 6;
+		}
+		#Bthigh{
+			width: 29.08%;
+			height:11.58%;
+			margin: 0px;
+			position: absolute;
+			left: 35.90%;
+			top: 55.02%;
+			z-index: 6;
+		}
+		#Bclaf{
+			width: 29.08%;
+			height:33.53%;
+			position: absolute;
+			left:35.91%;
+			top:66.6%;
+			margin: 0px;
+			z-index: 6;
+		}
+
+		/*뒷모습 선택*/
+		#SBlsholder{
+			width: 24.68%;
+			height:11.96%;
+			margin: 0px 0px 0px 112px;
+			position: absolute;
+			top:14.23%;
+			left: 0%;
+
+			z-index: 4;
+		}
+		#SBack{
+			width: 29.08%;
+			height:28.08%;
+			background-repeat: no-repeat;
+			position: absolute;
+			top: 14.23%;
+			left: 36.29%;
+
+			z-index: 4;
+		}
+		#SBrsholder{
+			width: 23.57%;
+			height:11.96%;
+			margin: 0px 112px 0px 0px;
+			position: absolute;
+			top:14.22%;
+			right: 0px;
+
+			z-index: 4;
+		}
+		#SBlarm{
+			width: 24.48%;
+			height: 32%;
+			margin: 0px 0px 0px 112px;
+			position: absolute;
+			top: 26.19%;
+			left: 0%;
+
+			z-index: 4;
+		}
+		#SBrarm{
+			width: 23.57%;
+			height: 32%;
+			margin: 0px 112px 0px 0px;
+			position: absolute;
+			top:26.19% ;
+			right:0%;
+
+			z-index: 4;
+		}
+		#SHip{
+			width: 29.08%;
+			height: 12.71%;
+			position: absolute;
+			top: 42.31%;
+			left :35.9%;
+
+			z-index: 4;
+		}
+		#SBthigh{
+			width: 29.08%;
+			height:11.58%;
+			margin: 0px;
+			position: absolute;
+			left: 35.90%;
+			top: 55.02%;
+
+			z-index: 4;
+		}
+		#SBclaf{
+			width: 29.08%;
+			height:33.53%;
+			position: absolute;
+			left:35.91%;
+			top:66.6%;
+			margin: 0px;
+
+			z-index: 4;
+		}

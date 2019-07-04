@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset="UTF-8" />
+	<title>Insert title here</title>
+	<style>
+	body{
+		background-color : black;
+	
+	}
+		#title{
+		border-radius: 80px;
+		height : 180px;
+		background-color : #474745;
+		border : 10px solid gray;
+		margin-bottom: 80px;
+		
+		width :80%;
+		margin-left : 10%;
+		margin-right : 10%;
+		line-height: 180px;
+		font-weight: bold;
+		font-size: 8.0em;
+		text-align: center;	
+		color: white;
+		}
+		#login{
+		border-radius: 80px;
+		height : 500px;
+		background-color : #474745;
+		border : 10px solid gray;
+		margin-bottom: 80px;
+		
+		padding-left : 8%;
+		padding-right : 8%;
+		
+		width :50%;
+		margin-left : 17%;
+		margin-right : 17%;
+		line-height: 80px;
+		font-weight: bold;
+		font-size: 4.5em;
+		text-align: left;	
+		color: white;
+		
+		}
+		input[type=text]{
+		height : 80px;
+		width : 330px;
+		font-size: 0.8em;
+		margin-left : 70px;
+		margin-top : 20px;
+		}
+		input[type=password]{
+		height : 80px;
+		width : 330px;
+		font-size: 0.8em;
+		margin-left : 30px;
+		margin-top : 20px;
+		}
+	input[type=submit]{
+	width : 200px;
+	height : 80px;
+	font-size : 0.8em;
+	margin-top : 80px;
+	text-align : center;
+	float : right;
+	}
+	
+	a{
+	text-decoration: none ;
+	color : white;
+	font-size : 2.5em;
+	float : right;
+	margin-right: 16%;
+	
+	}
+	
+	</style>
+
+
+
+
+</head>
+<body>
+<div id='title'>
+	Admin
+</div>
+
+<div id ='login'>
+	<form action='AdminOK.jsp' onsubmit="check()">
+		<span>ID</span><input type='text' name = 'id'><br>
+		<span>PW</span><input type='password' name ='pw'>
+		<input type='submit' value ='Login'>
+	</form>
+
+</div>
+
+<a href="Show me.jsp">back</a>
+
+</body>
+<script>
+	
+</script>
+</html>
